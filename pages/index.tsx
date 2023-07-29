@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Hero from "../components/Hero"
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Next js | Projetinho do Cria de Website</title>
       </Head>
-      <h1 className='text-5xl text-red-800'>Hello World</h1>
+      <Hero/>
     </div>
   )
 }
