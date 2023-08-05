@@ -1,5 +1,5 @@
 
-export default function FooterLink({links, tittle}){
+export default function FooterLinks({links, tittle}){
     return(
         <ul>
             <h1 className=' text-2xl mb-1 font-semibold '>{tittle}</h1>

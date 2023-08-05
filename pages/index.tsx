@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Next js | Projetinho do Cria de Website</title>
+        <title>Next js | Home Design Website Project</title>
       </Head>
       <Hero/>
       <Produtos/>

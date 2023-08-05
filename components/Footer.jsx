@@ -1,4 +1,4 @@
-import FooterLink from './FooterLink'
+import FooterLinks from './FooterLinks'
 import {FaHome} from 'react-icons/fa';
 
 export default function Footer(){
@@ -46,10 +46,10 @@ export default function Footer(){
                         </div>
                     </div>
                     
-                    <FooterLink links={MENU} tittle="MENU"/>
-                    <FooterLink links={EMPRESA} tittle="EMPRESA"/>
-                    <FooterLink links={CONTATO} tittle="CONTATO"/>
-                    <FooterLink links={REDES_SOCIAIS} tittle="REDES SOCIAIS"/>
+                    <FooterLinks links={MENU} tittle="MENU"/>
+                    <FooterLinks links={EMPRESA} tittle="EMPRESA"/>
+                    <FooterLinks links={CONTATO} tittle="CONTATO"/>
+                    <FooterLinks links={REDES_SOCIAIS} tittle="REDES SOCIAIS"/>
                 </ul>
             </div>
         <div className=' text-center text-sm '>
