@@ -8,10 +8,10 @@ export default function Produtos(){
                 <Headline title='Produtos'/>
             </section>
             <div className=' grid md:grid-cols-2 lg:grid-cols3 gap-6 px-20 py-12 '>
-                <Card image=' /assets/Furniture1.jpg ' title=' Mesas '/>
-                <Card image=' /assets/Furniture2.jpg ' title=' Sofás '/>
-                <Card image=' /assets/Furniture3.jpg ' title=' Racks '/>
-                <Card image=' /assets/Furniture4.jpg ' title=' Poltronas '/>
+                <Card image='../public/assets/Furniture1.jpg' title=' Mesas '/>
+                <Card image='../public/assets/Furniture2.jpg' title=' Sofás '/>
+                <Card image='../public/assets/Furniture3.jpg' title=' Racks '/>
+                <Card image='../public/assets/Furniture4.jpg' title=' Poltronas '/>
             </div>
         </div>
         

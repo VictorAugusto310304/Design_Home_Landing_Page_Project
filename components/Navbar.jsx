@@ -11,13 +11,13 @@ export default function Navbar() {
     
     return (
         <div className=' fixed bg-white top-0 w-[100%] z-20 shadow-md '>
-            <div className=' container nx-auto flex justify-between items-center px-4 py-4 '>
-                <div className=' flex gap-1 items-center text-4xl md:text-3xl font-bold '>
+            <div className=' container nx-auto flex justify-between items-center px-4 py-4 gap-5'>
+                <div className=' flex gap-1 items-center text-2xl md:text-3xl font-bold lg:text-4xl'>
                     <span className=' italic '>Home</span>
                     <FaHome/>
                     <span className=' italic text-green-600 '>Design</span>
                 </div>
-                <div className=' hidden md:flex gap-9 tracking-wider text-gray-600 font-bold text-base '>
+                <div className=' hidden md:flex gap-9 tracking-wider text-gray-600 font-bold text-sm lg:text-base '>
                     <Link href="#" className=' hover:text-green-700 '>Home</Link>
                     <Link href="#product" className=' hover:text-green-700 '>Produtos</Link>
                     <Link href="#categorie" className=' hover:text-green-700 '>Categorias</Link>
@@ -38,7 +38,7 @@ export default function Navbar() {
                 )}
             </div>
             {/* Menu Responsivo*/}
-            <div className={` duration-300 md:hidden flex flex-col w-[70%] h-screen fixed bg-black/90 text-white text-2xl top-[72px] ${toggle ? `left-[0]` : `left-[-100%]`} `}>
+            <div className={` duration-300 md:hidden flex flex-col w-[85%] h-screen fixed bg-black/90 text-white text-2xl top-[72px] ${toggle ? `left-[0]` : `left-[-100%]`} `}>
                     <Link href="#" className=' hover:text-green-700 p-5 '>Home</Link>
                     <Link href="#product" className=' hover:text-green-700 p-5 '>Products</Link>
                     <Link href="#categorie" className=' hover:text-green-700 p-5 '>Categories</Link>

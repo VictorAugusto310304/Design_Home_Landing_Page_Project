@@ -5,7 +5,7 @@
 @layer base{
     .categorieSlider .swiper-button-prev,
     .categorieSlider .swiper-button-next{
-        @apply bg-green-600 text-white top-[96%] md:top-[90%] w-[46px] rounded-full z-20
+        @apply bg-green-600 text-white top-[98%] md:top-[90%] w-[46px] rounded-full z-20
     }
     .categorieSlider .swiper-button-prev{
         @apply left-[35%] md:left-[40%] lg:left-[45%]

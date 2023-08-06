@@ -4,16 +4,16 @@ import {BsFacebook, BsTwitter, BsYoutube, BsLinkedin} from 'react-icons/bs'
 
 export default function Hero() {
     return(
-        <div className=' bg-[url("/living.jpg")] h-screen object-scale-down bg-cover bg-no-repeat bg-center
+        <div className=' bg-[url("../public/living.jpg")] h-screen object-scale-down bg-cover bg-no-repeat bg-center
         bg-fixed flex items-center relative '>
             <div className=' absolute inset-0 bg-black/60 '></div>
             <div className=' container mx-auto px-4 z-10 '>
                 <div className=' max-w-[650px] text-white flex flex-col gap-[40px] '>
                     <div>
-                        <h1 className=' text-4xl md:text-5xl font-semibold tracking-wide '>Torne sua casa dos sonhos</h1>
+                        <h1 className=' text-3xl md:text-4xl font-semibold tracking-wide lg:text-5xl '>Torne sua casa dos sonhos</h1>
                     </div>
                     <div>
-                        <h1 className=' text-4xl md:text-5xl font-semibold tracking-wide '>uma <span className='text-green-600'>realidade</span>.</h1>
+                        <h1 className=' text-3xl md:text-4xl font-semibold tracking-wide lg:text-5xl '>uma <span className='text-green-600'>realidade</span>.</h1>
                     </div>
                     <div className=' bg-green-600 h-[2px] w-[400px] '></div>
                     <div>
