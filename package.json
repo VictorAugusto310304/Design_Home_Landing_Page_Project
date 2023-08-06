@@ -1,6 +1,8 @@
 {
+  
   "name": "website",
   "version": "0.1.0",
+  "homepage": "github-pages/",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -25,6 +27,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.17",
-    "@types/react-dom": "^18.2.7"
+    "@types/react-dom": "^18.2.7",
+    "gh-pages": "^5.0.0"
   }
 }
