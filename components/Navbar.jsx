@@ -40,8 +40,8 @@ export default function Navbar() {
             {/* Menu Responsivo*/}
             <div className={` duration-300 md:hidden flex flex-col w-[85%] h-screen fixed bg-black/90 text-white text-2xl top-[72px] ${toggle ? `left-[0]` : `left-[-100%]`} `}>
                     <Link href="#" className=' hover:text-green-700 p-5 '>Home</Link>
-                    <Link href="#product" className=' hover:text-green-700 p-5 '>Products</Link>
-                    <Link href="#categorie" className=' hover:text-green-700 p-5 '>Categories</Link>
+                    <Link href="#product" className=' hover:text-green-700 p-5 '>Produtos</Link>
+                    <Link href="#categorie" className=' hover:text-green-700 p-5 '>Categorias</Link>
                     <Link href="#" className=' hover:text-green-700 p-5 '>Trabalhe Conosco</Link>
                     <div className=' flex flex-col gap-8 items-center mt-10 '>
                         <div className=' bg-white w-[350px] h-[1.5px] '></div>
